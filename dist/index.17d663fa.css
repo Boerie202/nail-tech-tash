@@ -1,0 +1,40 @@
+* {
+  background-color: #FFFAFA;
+}
+
+.mainHeading {
+  margin-top: 50px;
+  font-weight: 200;
+  font-family: Gabriola;
+  font-size: 100px;
+  text-decoration: underline;
+}
+
+.subHeading {
+  font-weight: 200;
+  font-family: Gabriola;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.buttonRow {
+  margin-top: 50px;
+}
+
+.mainPageButton {
+  margin-top: 20px;
+  background-color: #E6E6FA;
+  border: none;
+  text-align: center;
+  padding: 10px 26px;
+  border-radius: 12px;
+  transition-duration: 600ms;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+.mainPageButton:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.17d663fa.css.map */
