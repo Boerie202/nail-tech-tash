@@ -1,6 +1,7 @@
 # Folder Exclusions #
 
 node_modules/*
+parcel-cache/*
 *.zip
 *.jpeg
 *.jpg
@@ -9140,3 +9141,5 @@ dist/index.6701a6e1.js.map
 dist/index.6701a6e1.js
 .parcel-cache/data.mdb
 .parcel-cache/687f8a990313aa2f.txt
+.parcel-cache/lock.mdb
+.parcel-cache/data.mdb
