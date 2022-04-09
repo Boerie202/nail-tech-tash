@@ -37,4 +37,49 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
 }
+
+.pricesPage {
+  margin-top: 50px;
+}
+
+.priceList {
+  text-align: center;
+  margin-top: 60px;
+}
+li {
+  margin-top: 20px;
+}
+
+li:first-child {
+  margin-top: 0;
+}
+
+.heading {
+  margin-top: 100px;
+  font-family: Gabriola;
+  font-size: 50px;
+}
+
+.priceList {
+  text-align: center;
+}
+.title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 70px;
+  font-family: Gabriola;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 50px;
+  text-align: right;
+  text-decoration: black;
+}
 /*# sourceMappingURL=index.17d663fa.css.map */

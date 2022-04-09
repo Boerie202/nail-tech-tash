@@ -4,6 +4,7 @@ node_modules/*
 *.zip
 *.jpeg
 *.jpg
+*.map
 node_modules/yallist/LICENSE
 .parcel-cache/687f8a990313aa2f.txt
 *.mdb

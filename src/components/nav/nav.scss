@@ -1,0 +1,27 @@
+.title {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 70px;
+    // font-family: Gabriola;
+
+}
+
+nav {
+    font-family: Gabriola;
+    color: snow;
+    background-color: #5F9EA0;
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 50px;
+    text-align: right;
+    text-decoration: black;
+}
+
+nav.sub-heading {
+    font-size: medium;
+}
