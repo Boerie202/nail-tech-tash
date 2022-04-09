@@ -6,9 +6,10 @@ parcel-cache/*
 *.jpeg
 *.jpg
 *.map
+*.mdb
+*.txt
 node_modules/yallist/LICENSE
 .parcel-cache/687f8a990313aa2f.txt
-*.mdb
 node_modules/.bin/ansi-html
 node_modules/.bin/ansi-html.cmd
 node_modules/.bin/ansi-html.ps1
