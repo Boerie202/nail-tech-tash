@@ -1,0 +1,113 @@
+.title {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 70px;
+}
+
+nav {
+  font-family: Gabriola;
+  color: snow;
+  background-color: #5F9EA0;
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 50px;
+  text-align: right;
+  text-decoration: black;
+}
+
+nav.sub-heading {
+  font-size: medium;
+}
+.main-footer {
+  color: snow;
+  background-color: #5F9EA0;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-weight: 500;
+}
+
+ul.list-unstyled {
+  text-align: left;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  background-color: #FFFAFA;
+  flex: 1;
+}
+
+.mainHeading {
+  margin-top: 50px;
+  font-weight: 200;
+  font-family: Gabriola;
+  font-size: 100px;
+  text-decoration: underline;
+}
+
+.subHeading {
+  font-weight: 200;
+  font-family: Gabriola;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.buttonRow {
+  margin-top: 50px;
+}
+
+.mainPageButton {
+  margin-top: 20px;
+  background-color: #E6E6FA;
+  border: none;
+  text-align: center;
+  padding: 10px 26px;
+  border-radius: 12px;
+  transition-duration: 600ms;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+.mainPageButton:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.pricesPage {
+  margin-top: 50px;
+}
+
+.priceList {
+  text-align: center;
+  margin-top: 60px;
+}
+li.products {
+  margin-top: 20px;
+}
+
+li:first-child {
+  margin-top: 0;
+}
+
+.heading {
+  margin-top: 100px;
+  font-family: Gabriola;
+  font-size: 50px;
+}
+
+ul.priceList {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+/*# sourceMappingURL=index.9f744743.css.map */
