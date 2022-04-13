@@ -2,6 +2,10 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './footer.scss';
 
+import instaImage from '../../images/Instagram.png'
+
+
+
 const Footer = () => {
     return (
         <div className='main-footer'>
@@ -24,21 +28,20 @@ const Footer = () => {
 
                         <h3>Contact:</h3>
                         <ul className='list-unstyled'>
-                            <li>Text</li>
-                            <li>Text</li>
-                            <li>Text</li>
+                            <li>Mobile: 07506009730</li>
+                            <li>E-mail: tashhanbury95@gmail.com</li>
                         </ul>
 
                     </div>
                     {/* Column 3 */}
-                    <div className='col'>
+                    <div className='col insta-image'>
 
-                        <h3>Column 3</h3>
-                        <ul className='list-unstyled'>
-                            <li>Text</li>
-                            <li>Text</li>
-                            <li>Text</li>
-                        </ul>
+                        {/* <h3>Social Media</h3> */}
+
+                        <img src={instaImage} height="50" width="50" />
+
+                        <p>@nail.tech.tash</p>
+
 
                     </div>
                 </div>
