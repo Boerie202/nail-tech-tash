@@ -1,8 +1,10 @@
 .title {
     margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
     text-align: center;
     font-size: 70px;
-    // font-family: Gabriola;
+
 
 }
 
@@ -16,6 +18,7 @@ nav {
 }
 
 ul {
+
     list-style-type: none;
     margin-right: 50px;
     text-align: right;
@@ -24,4 +27,18 @@ ul {
 
 nav.sub-heading {
     font-size: medium;
+}
+
+.nav-list {
+    padding-top: 30px;
+    font-size: 30px;
+    color: snow;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-list:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: snow;
 }

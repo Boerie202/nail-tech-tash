@@ -19,6 +19,9 @@ import Gallery from '../../pages/gallery-view/gallery';
 import Availability from '../../pages/availability-view/availability';
 import Contact from '../../pages/contact-view/contact';
 
+
+
+
 const Home = () => (
     <div></div>
 )
@@ -33,36 +36,7 @@ function MainView() {
 
                     <Header />
 
-                    <Row className='text-center'>
-                        <Col sm>
-                            <Link to='/prices'>
-                                <button className='mainPageButton'>
-                                    Prices
-                                </button>
-                            </Link>
-                        </Col>
-                        <Col sm>
-                            <Link to='/gallery'>
-                                <button className='mainPageButton'>
-                                    Gallery
-                                </button>
-                            </Link>
-                        </Col>
-                        <Col sm>
-                            <Link to='/availability'>
-                                <button className='mainPageButton'>
-                                    Availability
-                                </button>
-                            </Link>
-                        </Col>
-                        <Col sm>
-                            <Link to='/contact'>
-                                <button className='mainPageButton'>
-                                    Contact
-                                </button>
-                            </Link>
-                        </Col>
-                    </Row>
+
                     <Row>
                         <Col>
                             {/* Space for page filler */}
