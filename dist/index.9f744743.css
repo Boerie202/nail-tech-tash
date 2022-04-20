@@ -55,8 +55,18 @@ nav.sub-heading {
   padding-top: 15px;
 }
 
+.insta-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 ul.list-unstyled {
   text-align: left;
+}
+
+.email:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 .page-container {
   display: flex;
