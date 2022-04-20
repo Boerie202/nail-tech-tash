@@ -25189,7 +25189,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-router-dom":"kjA5T","../nav/nav":"kCv09","../footer/footer":"gvzyL","../main-view/main-view.scss":"jyMAr","react-bootstrap":"h2YVd","../../pages/home-view/home":"an78k","../../pages/prices-view/prices":"khRmj","../../pages/gallery-view/gallery":"2lZXv","../../pages/availability-view/availability":"4cetZ","../../pages/contact-view/contact":"4QmCH","@parcel/transformer-js/src/esmodule-helpers.js":"bEoUv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"fDW34"}],"kjA5T":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-router-dom":"kjA5T","../nav/nav":"kCv09","../footer/footer":"gvzyL","../main-view/main-view.scss":"jyMAr","react-bootstrap":"h2YVd","../../pages/prices-view/prices":"khRmj","../../pages/gallery-view/gallery":"2lZXv","../../pages/availability-view/availability":"4cetZ","../../pages/contact-view/contact":"4QmCH","@parcel/transformer-js/src/esmodule-helpers.js":"bEoUv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"fDW34","../../pages/home-view/home":"an78k"}],"kjA5T":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>_reactRouter.MemoryRouter
@@ -40118,7 +40118,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-router-dom":"kjA5T","./footer.scss":"2r9w8","../../images/Instagram.png":"aAd7Z","@parcel/transformer-js/src/esmodule-helpers.js":"bEoUv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"fDW34"}],"2r9w8":[function() {},{}],"aAd7Z":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","./footer.scss":"2r9w8","../../images/Instagram.png":"aAd7Z","@parcel/transformer-js/src/esmodule-helpers.js":"bEoUv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"fDW34","react-router-dom":"kjA5T"}],"2r9w8":[function() {},{}],"aAd7Z":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('3VpAv') + "Instagram.f07b946a.png";
 
 },{"./helpers/bundle-url":"9YCgX"}],"9YCgX":[function(require,module,exports) {
@@ -40156,115 +40156,7 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"jyMAr":[function() {},{}],"an78k":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$cc12 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$cc12.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxRuntime = require("react/jsx-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-//Image imports
-var _image1Jpg = require("../../images/image1.jpg");
-var _image1JpgDefault = parcelHelpers.interopDefault(_image1Jpg);
-var _image2Jpg = require("../../images/image2.jpg");
-var _image2JpgDefault = parcelHelpers.interopDefault(_image2Jpg);
-var _image3Png = require("../../images/image3.png");
-var _image3PngDefault = parcelHelpers.interopDefault(_image3Png);
-const Home = ()=>/*#__PURE__*/ _jsxRuntime.jsx("div", {
-        className: "main-page-pics",
-        __source: {
-            fileName: "src/pages/home-view/home.jsx",
-            lineNumber: 11
-        },
-        __self: undefined,
-        children: /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Row, {
-            __source: {
-                fileName: "src/pages/home-view/home.jsx",
-                lineNumber: 12
-            },
-            __self: undefined,
-            children: [
-                /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Col, {
-                    __source: {
-                        fileName: "src/pages/home-view/home.jsx",
-                        lineNumber: 14
-                    },
-                    __self: undefined,
-                    children: /*#__PURE__*/ _jsxRuntime.jsx("img", {
-                        src: _image1JpgDefault.default,
-                        height: "400",
-                        width: "400",
-                        __source: {
-                            fileName: "src/pages/home-view/home.jsx",
-                            lineNumber: 15
-                        },
-                        __self: undefined
-                    })
-                }),
-                /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Col, {
-                    __source: {
-                        fileName: "src/pages/home-view/home.jsx",
-                        lineNumber: 18
-                    },
-                    __self: undefined,
-                    children: /*#__PURE__*/ _jsxRuntime.jsx("img", {
-                        src: _image3PngDefault.default,
-                        height: "400",
-                        width: "400",
-                        __source: {
-                            fileName: "src/pages/home-view/home.jsx",
-                            lineNumber: 19
-                        },
-                        __self: undefined
-                    })
-                }),
-                /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Col, {
-                    __source: {
-                        fileName: "src/pages/home-view/home.jsx",
-                        lineNumber: 23
-                    },
-                    __self: undefined,
-                    children: /*#__PURE__*/ _jsxRuntime.jsx("img", {
-                        src: _image2JpgDefault.default,
-                        height: "400",
-                        width: "400",
-                        __source: {
-                            fileName: "src/pages/home-view/home.jsx",
-                            lineNumber: 24
-                        },
-                        __self: undefined
-                    })
-                })
-            ]
-        })
-    })
-;
-_c = Home;
-exports.default = Home;
-var _c;
-$RefreshReg$(_c, "Home");
-
-  $parcel$ReactRefreshHelpers$cc12.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-bootstrap":"h2YVd","../../images/image1.jpg":"khbcU","../../images/image2.jpg":"lGOyG","../../images/image3.png":"7f0FD","@parcel/transformer-js/src/esmodule-helpers.js":"bEoUv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"fDW34"}],"khbcU":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('3VpAv') + "image1.99913aed.jpg";
-
-},{"./helpers/bundle-url":"9YCgX"}],"lGOyG":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('3VpAv') + "image2.18c734d6.jpg";
-
-},{"./helpers/bundle-url":"9YCgX"}],"7f0FD":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('3VpAv') + "image3.3d698759.png";
-
-},{"./helpers/bundle-url":"9YCgX"}],"khRmj":[function(require,module,exports) {
+},{}],"jyMAr":[function() {},{}],"khRmj":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$4511 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40490,7 +40382,16 @@ $RefreshReg$(_c, "Gallery");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","../../images/image1.jpg":"khbcU","../../images/image2.jpg":"lGOyG","../../images/image3.png":"7f0FD","react-bootstrap":"h2YVd","./gallery.scss":"40ewx","@parcel/transformer-js/src/esmodule-helpers.js":"bEoUv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"fDW34"}],"40ewx":[function() {},{}],"4cetZ":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","../../images/image1.jpg":"khbcU","../../images/image2.jpg":"lGOyG","../../images/image3.png":"7f0FD","react-bootstrap":"h2YVd","./gallery.scss":"40ewx","@parcel/transformer-js/src/esmodule-helpers.js":"bEoUv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"fDW34"}],"khbcU":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('3VpAv') + "image1.99913aed.jpg";
+
+},{"./helpers/bundle-url":"9YCgX"}],"lGOyG":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('3VpAv') + "image2.18c734d6.jpg";
+
+},{"./helpers/bundle-url":"9YCgX"}],"7f0FD":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('3VpAv') + "image3.3d698759.png";
+
+},{"./helpers/bundle-url":"9YCgX"}],"40ewx":[function() {},{}],"4cetZ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$3614 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40568,6 +40469,105 @@ $RefreshReg$(_c, "Contact");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"bEoUv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"fDW34"}]},["1duzU","f2uZG","dLPEP"], "dLPEP", "parcelRequirec9af")
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"bEoUv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"fDW34"}],"an78k":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cc12 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cc12.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxRuntime = require("react/jsx-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+//Image imports
+var _image1Jpg = require("../../images/image1.jpg");
+var _image1JpgDefault = parcelHelpers.interopDefault(_image1Jpg);
+var _image2Jpg = require("../../images/image2.jpg");
+var _image2JpgDefault = parcelHelpers.interopDefault(_image2Jpg);
+var _image3Png = require("../../images/image3.png");
+var _image3PngDefault = parcelHelpers.interopDefault(_image3Png);
+const Home = ()=>/*#__PURE__*/ _jsxRuntime.jsx("div", {
+        className: "main-page-pics",
+        __source: {
+            fileName: "src/pages/home-view/home.jsx",
+            lineNumber: 11
+        },
+        __self: undefined,
+        children: /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Row, {
+            __source: {
+                fileName: "src/pages/home-view/home.jsx",
+                lineNumber: 12
+            },
+            __self: undefined,
+            children: [
+                /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Col, {
+                    __source: {
+                        fileName: "src/pages/home-view/home.jsx",
+                        lineNumber: 14
+                    },
+                    __self: undefined,
+                    children: /*#__PURE__*/ _jsxRuntime.jsx("img", {
+                        src: _image1JpgDefault.default,
+                        height: "400",
+                        width: "400",
+                        __source: {
+                            fileName: "src/pages/home-view/home.jsx",
+                            lineNumber: 15
+                        },
+                        __self: undefined
+                    })
+                }),
+                /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Col, {
+                    __source: {
+                        fileName: "src/pages/home-view/home.jsx",
+                        lineNumber: 18
+                    },
+                    __self: undefined,
+                    children: /*#__PURE__*/ _jsxRuntime.jsx("img", {
+                        src: _image3PngDefault.default,
+                        height: "400",
+                        width: "400",
+                        __source: {
+                            fileName: "src/pages/home-view/home.jsx",
+                            lineNumber: 19
+                        },
+                        __self: undefined
+                    })
+                }),
+                /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Col, {
+                    __source: {
+                        fileName: "src/pages/home-view/home.jsx",
+                        lineNumber: 23
+                    },
+                    __self: undefined,
+                    children: /*#__PURE__*/ _jsxRuntime.jsx("img", {
+                        src: _image2JpgDefault.default,
+                        height: "400",
+                        width: "400",
+                        __source: {
+                            fileName: "src/pages/home-view/home.jsx",
+                            lineNumber: 24
+                        },
+                        __self: undefined
+                    })
+                })
+            ]
+        })
+    })
+;
+_c = Home;
+exports.default = Home;
+var _c;
+$RefreshReg$(_c, "Home");
+
+  $parcel$ReactRefreshHelpers$cc12.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-bootstrap":"h2YVd","../../images/image1.jpg":"khbcU","../../images/image2.jpg":"lGOyG","../../images/image3.png":"7f0FD","@parcel/transformer-js/src/esmodule-helpers.js":"bEoUv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"fDW34"}]},["1duzU","f2uZG","dLPEP"], "dLPEP", "parcelRequirec9af")
 
 //# sourceMappingURL=index.6701a6e1.js.map
