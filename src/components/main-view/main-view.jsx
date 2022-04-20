@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 
 //Page layout imports
 import Nav from '../nav/nav';
-import Header from '../header/header';
 import Footer from '../footer/footer';
 
 
@@ -14,17 +13,13 @@ import '../main-view/main-view.scss';
 import { Col, Row } from 'react-bootstrap';
 
 //Page imports
+import Home from '../../pages/home-view/home';
 import Prices from '../../pages/prices-view/prices';
 import Gallery from '../../pages/gallery-view/gallery';
 import Availability from '../../pages/availability-view/availability';
 import Contact from '../../pages/contact-view/contact';
 
 
-
-
-const Home = () => (
-    <div></div>
-)
 
 function MainView() {
     return (
@@ -34,17 +29,8 @@ function MainView() {
                 <Router>
                     <Nav />
 
-                    <Header />
 
-
-                    <Row>
-                        <Col>
-                            {/* Space for page filler */}
-                        </Col>
-                    </Row>
-
-
-
+                    {/* Routing for pages */}
                     <Routes>
                         <Route path="/" exact element={<Home />} />
                         <Route path="/prices" element={<Prices />} />

@@ -20,7 +20,7 @@ function Nav() {
                 </Col>
                 <Col>
                     <Link to='/prices'>
-                        <li className='nav-list'>Prices</li>
+                        <li className='nav-list'>Products & Prices</li>
                     </Link>
                 </Col>
                 <Col>
