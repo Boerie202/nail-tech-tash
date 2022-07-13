@@ -35,7 +35,7 @@ const Footer = () => {
                         <ul className='list-unstyled'>
                             <li className='mobile'>Mobile: 07506009730</li>
 
-                            <li className='email' onClick={() => window.open("mailto:tashhanbury95@gmail.com?")}>E-mail: tashhanbury95@gmail.com</li>
+                            <li className='email' onClick={() => window.open("mailto:nailtechtash1@gmail.com?")}>E-mail: nailtechtash1@gmail.com</li>
 
                         </ul>
 
